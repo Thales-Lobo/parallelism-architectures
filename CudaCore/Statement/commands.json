@@ -1,0 +1,11 @@
+{
+    "login": {
+        "command":  "ssh hpda_8@chome.metz.supelec.fr",
+        "username": "hpda_8",
+        "password": "RattrapageGPU2023"
+    },    
+    "GPU": {
+        "type":     "Tx",
+        "command":  "srun -N 1 --exclusive -p gpu_tp -C tx --pty bash"
+    }
+}

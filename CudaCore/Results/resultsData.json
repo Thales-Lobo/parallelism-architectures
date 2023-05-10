@@ -1,0 +1,179 @@
+{
+    "question3" : {
+        "1024": {
+            "completeMatrixProduct": {
+                "elapsedTime": 0.008664,
+                "Gflops": 495.752808 
+            },
+            "kernelComputation": {
+                "elapsedTime": 0.004622,
+                "Gflops": 929.214539             
+            },
+            "DataTransfer": {
+                "elapsedTime": 0.004041,
+                "BW": 6.227040 
+            }
+        },
+        "2048": {
+            "completeMatrixProduct": {
+                "elapsedTime": 0.052246,
+                "Gflops": 657.646851 
+            },
+            "kernelComputation": {
+                "elapsedTime": 0.036282,
+                "Gflops": 947.007385              
+            },
+            "DataTransfer": {
+                "elapsedTime": 0.015964,
+                "BW": 6.305625 
+            }
+        },
+        "4096": {
+            "completeMatrixProduct": {
+                "elapsedTime": 0.298792,
+                "Gflops": 919.965454  
+            },
+            "kernelComputation": {
+                "elapsedTime": 0.235085,
+                "Gflops": 1169.268799               
+            },
+            "DataTransfer": {
+                "elapsedTime": 0.063706,
+                "BW": 6.320465 
+            }
+        }
+    },
+    "question4": {
+        "1024": {
+            "completeMatrixProduct": {
+                "elapsedTime": 0.006893,
+                "Gflops": 623.061157 
+            },
+            "kernelComputation": {
+                "elapsedTime": 0.002872,
+                "Gflops": 1495.583008            
+            },
+            "DataTransfer": {
+                "elapsedTime": 0.004022,
+                "BW": 6.257720 
+            }
+        },
+        "2048": {
+            "completeMatrixProduct": {
+                "elapsedTime": 0.037844,
+                "Gflops": 907.922058 
+            },
+            "kernelComputation": {
+                "elapsedTime": 0.021850,
+                "Gflops": 1572.514282              
+            },
+            "DataTransfer": {
+                "elapsedTime": 0.015994,
+                "BW": 6.293746 
+            }
+        },
+        "4096": {
+            "completeMatrixProduct": {
+                "elapsedTime": 0.235267,
+                "Gflops": 1168.368042   
+            },
+            "kernelComputation": {
+                "elapsedTime": 0.171421,
+                "Gflops": 1603.529785                
+            },
+            "DataTransfer": {
+                "elapsedTime": 0.063846 ,
+                "BW": 6.306631
+            }
+        }
+    },
+    "question3_COALESCENT" : {
+        "1024": {
+            "completeMatrixProduct": {
+                "elapsedTime": 0.007507,
+                "Gflops": 572.093567 
+            },
+            "kernelComputation": {
+                "elapsedTime": 0.003483,
+                "Gflops": 1233.034180            
+            },
+            "DataTransfer": {
+                "elapsedTime": 0.004024,
+                "BW": 6.253614 
+            }
+        },
+        "2048": {
+            "completeMatrixProduct": {
+                "elapsedTime": 0.043333,
+                "Gflops": 792.925171
+            },
+            "kernelComputation": {
+                "elapsedTime": 0.027376,
+                "Gflops": 1255.125366             
+            },
+            "DataTransfer": {
+                "elapsedTime": 0.015957,
+                "BW": 6.308273 
+            }
+        },
+        "4096": {
+            "completeMatrixProduct": {
+                "elapsedTime": 0.265844,
+                "Gflops": 1033.981934  
+            },
+            "kernelComputation": {
+                "elapsedTime": 0.202007,
+                "Gflops": 1360.733276               
+            },
+            "DataTransfer": {
+                "elapsedTime": 0.063837,
+                "BW": 6.307537 
+            }
+        }
+    },
+    "question4_COALESCENT": {
+        "1024": {
+            "completeMatrixProduct": {
+                "elapsedTime": 0.006972,
+                "Gflops": 616.005493
+            },
+            "kernelComputation": {
+                "elapsedTime": 0.002945,
+                "Gflops": 1458.389038             
+            },
+            "DataTransfer": {
+                "elapsedTime": 0.004027,
+                "BW": 6.248840 
+            }
+        },
+        "2048": {
+            "completeMatrixProduct": {
+                "elapsedTime": 0.038273,
+                "Gflops": 897.749268 
+            },
+            "kernelComputation": {
+                "elapsedTime": 0.022315,
+                "Gflops": 1539.775391              
+            },
+            "DataTransfer": {
+                "elapsedTime": 0.015958,
+                "BW": 6.307846
+            }
+        },
+        "4096": {
+            "completeMatrixProduct": {
+                "elapsedTime": 0.216354,
+                "Gflops": 1270.501587  
+            },
+            "kernelComputation": {
+                "elapsedTime": 0.152694,
+                "Gflops": 1800.185547              
+            },
+            "DataTransfer": {
+                "elapsedTime": 0.063660,
+                "BW": 6.325094 
+            }
+        }
+    }
+
+}
